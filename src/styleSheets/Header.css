@@ -1,0 +1,12 @@
+.Header_Padding{
+    padding: 30px 50px;
+    font-weight: bold;
+    box-shadow: 0 0 5px 0 darkgray;
+}
+.Header_Menu_div{
+    justify-content: flex-end;
+    text-align: center;
+}
+.modal-backdrop{
+    z-index: +1;
+}

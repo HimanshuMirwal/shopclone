@@ -1,0 +1,79 @@
+.Detail_col_image{
+    width: 50%;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 100px 50px;
+}
+.Detail_col_Text{
+    width: 50%;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+}
+.detail_Description{
+
+}
+.detail_Button_Div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.Detail_Button{
+    width: 150px;
+}
+.Detail_Points{
+    float: "right";
+    width: "50%";
+    height: "100%";
+}
+.SuggestionDivParent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow:scroll ;
+}
+.SuggestionProduct{
+    /* float: left; */
+    margin: 10px 15px ;
+}
+@media (max-width:800px) {
+    .Detail_col_image{
+        width: 100%;
+        margin: auto;
+        height: auto;
+        overflow: hidden;
+        padding: 50px 50px;
+    }
+    .Detail_col_Text{
+        width: 100%;
+        margin: auto;
+        height: auto;
+        padding: 25px 50px ;
+    }
+    .detail_Button_Div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(136, 136, 136, 0);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(136, 136, 136, 0);
+  }

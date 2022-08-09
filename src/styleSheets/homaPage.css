@@ -1,0 +1,21 @@
+.homePage_row_class{
+    padding: 30px 50px;
+    overflow: hidden;
+    height: auto;
+}
+.Card-button{
+    width: 100%;
+    justify-content: space-between;
+}
+.col-Product-custom{
+    width: 33.3%;
+}
+@media (max-width:1000px){
+    .col-Product-custom{
+        width: 50%;
+    }   
+}
+
+
+
+
